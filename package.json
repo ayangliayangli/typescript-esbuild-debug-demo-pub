@@ -1,0 +1,19 @@
+{
+  "name": "typescript-esbuild-debug-demo-pub",
+  "version": "1.0.0",
+  "description": "debug typescript snip",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./scripts/build.js",
+    "active-ts": "node ./scripts/active-ts.js"
+  },
+  "author": "yangfee",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "ts-node": "^10.3.0"
+  }
+}
